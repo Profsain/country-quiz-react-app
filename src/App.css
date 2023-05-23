@@ -67,3 +67,11 @@
   color: #fff;
   border: none;
 }
+
+.Action-Container {
+  position: relative;
+  bottom: 0;
+  top: 12px;
+  left: 72%;
+  width: 100%;
+}
