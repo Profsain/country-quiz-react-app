@@ -6,7 +6,6 @@ function App() {
     <div className="App">
       <h1 className="Headings">Country Quiz</h1>
       <Quiz />
-      {/* quiz component */}
         {/* question component */}
         {/* answare component */}
       {/* result report component */}

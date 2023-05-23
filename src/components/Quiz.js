@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './Logo';
 import '../App.css';
+import QuizQuestion from './QuizQuestion';
 
 
 const Quiz = () => {
@@ -9,6 +10,7 @@ const Quiz = () => {
         <div  className="Logo">
             <Logo />
         </div>
+        <QuizQuestion />
         {/* add svg here */}
         {/* <img src={Logo} alt="logo" className="Logo" /> */}
         <div className="Question"></div>

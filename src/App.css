@@ -21,3 +21,18 @@
   top: -50px;
   left: 300px;
 }
+
+.Question-container {
+  margin-top: -68px;
+  padding: 0 32px;
+}
+
+.Question {
+  margin-top: -28px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1D355D;
+}
