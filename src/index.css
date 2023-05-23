@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-
-  background: linear-gradient(to right, #5256A1 30%, #5C61C1 70%);
-  
+  background-image: url("/public/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
