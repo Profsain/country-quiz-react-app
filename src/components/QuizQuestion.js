@@ -6,7 +6,7 @@ const QuizQuestion = () => {
     <div className="Question-container">
         <img src="../images/flag.png" alt="flag" className="Flag" />
         <div className="Question">
-            <h2>Which country does this flag belong to?</h2>
+            <p>Which country does this flag belong to?</p>
         </div>
     </div>
   )
