@@ -9,6 +9,7 @@ function App() {
         {/* question component */}
         {/* answare component */}
       {/* result report component */}
+      {/* footer component */}
     </div>
   );
 }

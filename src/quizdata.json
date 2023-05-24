@@ -1,0 +1,289 @@
+{
+  "questions": [
+    {
+      "question": "Which country is home to the Taj Mahal?",
+      "correct_answer": "India",
+      "wrong_answers": ["China", "Egypt", "Brazil"]
+    },
+    {
+      "question": "Which country has the largest land area?",
+      "correct_answer": "Russia",
+      "wrong_answers": ["United States", "China", "Australia"]
+    },
+    {
+      "question": "Which country is known for its fjords?",
+      "correct_answer": "Norway",
+      "wrong_answers": ["Canada", "New Zealand", "Switzerland"]
+    },
+    {
+      "question": "Which country is famous for its pyramids?",
+      "correct_answer": "Egypt",
+      "wrong_answers": ["Mexico", "Greece", "India"]
+    },
+    {
+      "question": "Which country is home to the Eiffel Tower?",
+      "correct_answer": "France",
+      "wrong_answers": ["Italy", "Germany", "Spain"]
+    },
+    {
+      "question": "Which country is known for its kangaroos?",
+      "correct_answer": "Australia",
+      "wrong_answers": ["Brazil", "Kenya", "Canada"]
+    },
+    {
+      "question": "Which country is famous for its tulips?",
+      "correct_answer": "Netherlands",
+      "wrong_answers": ["Sweden", "Russia", "South Africa"]
+    },
+    {
+      "question": "Which country is located in both Asia and Europe?",
+      "correct_answer": "Turkey",
+      "wrong_answers": ["United States", "Australia", "Brazil"]
+    },
+    {
+      "question": "Which country is known for its maple syrup?",
+      "correct_answer": "Canada",
+      "wrong_answers": ["Mexico", "Japan", "India"]
+    },
+    {
+      "question": "Which country is home to the Great Wall?",
+      "correct_answer": "China",
+      "wrong_answers": ["Egypt", "Greece", "Italy"]
+    },
+    {
+      "question": "Which country is famous for its samba and carnival?",
+      "correct_answer": "Brazil",
+      "wrong_answers": ["Argentina", "Colombia", "Chile"]
+    },
+    {
+      "question": "Which country is known for its high-quality chocolate?",
+      "correct_answer": "Belgium",
+      "wrong_answers": ["Switzerland", "France", "Netherlands"]
+    },
+    {
+      "question": "Which country is home to Mount Everest?",
+      "correct_answer": "Nepal",
+      "wrong_answers": ["India", "China", "Japan"]
+    },
+    {
+      "question": "Which country is famous for its ancient ruins of Machu Picchu?",
+      "correct_answer": "Peru",
+      "wrong_answers": ["Mexico", "Brazil", "Argentina"]
+    },
+    {
+      "question": "Which country is known for its beautiful beaches and tango dance?",
+      "correct_answer": "Argentina",
+      "wrong_answers": ["Spain", "Italy", "Greece"]
+    },
+    {
+      "question": "Which country is home to the Acropolis?",
+      "correct_answer": "Greece",
+      "wrong_answers": ["Egypt", "Italy", "Turkey"]
+    },
+    {
+      "question": "Which country is famous for its Oktoberfest celebration?",
+      "correct_answer": "Germany",
+      "wrong_answers": ["Switzerland", "Austria", "Netherlands"]
+    },
+    {
+      "question": "Which country is known for its cherry blossoms?",
+      "correct_answer": "Japan",
+      "wrong_answers": ["China", "Korea", "Thailand"]
+    },
+    {
+      "question": "Which country is home to the Colosseum?",
+      "correct_answer": "Italy",
+      "wrong_answers": ["Greece", "Spain", "France"]
+    },
+    {
+      "question": "Which country is famous for its fjords?",
+      "correct_answer": "Norway",
+      "wrong_answers": ["Canada", "New Zealand", "Switzerland"]
+    },
+    {
+      "question": "Which country is known for its pyramids?",
+      "correct_answer": "Egypt",
+      "wrong_answers": ["Mexico", "Greece", "India"]
+    },
+    {
+      "question": "Which country is home to the Eiffel Tower?",
+      "correct_answer": "France",
+      "wrong_answers": ["Italy", "Germany", "Spain"]
+    },
+    {
+      "question": "Which country is known for its kangaroos?",
+      "correct_answer": "Australia",
+      "wrong_answers": ["Brazil", "Kenya", "Canada"]
+    },
+    {
+      "question": "Which country is famous for its tulips?",
+      "correct_answer": "Netherlands",
+      "wrong_answers": ["Sweden", "Russia", "South Africa"]
+    },
+    {
+      "question": "Which country is located in both Asia and Europe?",
+      "correct_answer": "Turkey",
+      "wrong_answers": ["United States", "Australia", "Brazil"]
+    },
+    {
+      "question": "Which country is known for its maple syrup?",
+      "correct_answer": "Canada",
+      "wrong_answers": ["Mexico", "Japan", "India"]
+    },
+    {
+      "question": "Which country is home to the Great Wall?",
+      "correct_answer": "China",
+      "wrong_answers": ["Egypt", "Greece", "Italy"]
+    },
+    {
+      "question": "Which country is famous for its samba and carnival?",
+      "correct_answer": "Brazil",
+      "wrong_answers": ["Argentina", "Colombia", "Chile"]
+    },
+    {
+      "question": "Which country is known for its high-quality chocolate?",
+      "correct_answer": "Belgium",
+      "wrong_answers": ["Switzerland", "France", "Netherlands"]
+    },
+    {
+      "question": "Which country is home to Mount Everest?",
+      "correct_answer": "Nepal",
+      "wrong_answers": ["India", "China", "Japan"]
+    },
+    {
+      "question": "Which country is famous for its ancient ruins of Machu Picchu?",
+      "correct_answer": "Peru",
+      "wrong_answers": ["Mexico", "Brazil", "Argentina"]
+    },
+    {
+      "question": "Which country is known for its beautiful beaches and tango dance?",
+      "correct_answer": "Argentina",
+      "wrong_answers": ["Spain", "Italy", "Greece"]
+    },
+    {
+      "question": "Which country is home to the Acropolis?",
+      "correct_answer": "Greece",
+      "wrong_answers": ["Egypt", "Italy", "Turkey"]
+    },
+    {
+      "question": "Which country is famous for its Oktoberfest celebration?",
+      "correct_answer": "Germany",
+      "wrong_answers": ["Switzerland", "Austria", "Netherlands"]
+    },
+    {
+      "question": "Which country is known for its cherry blossoms?",
+      "correct_answer": "Japan",
+      "wrong_answers": ["China", "Korea", "Thailand"]
+    },
+    {
+      "question": "Which country is home to the Colosseum?",
+      "correct_answer": "Italy",
+      "wrong_answers": ["Greece", "Spain", "France"]
+    },
+    {
+      "question": "Which country is famous for its fjords?",
+      "correct_answer": "Norway",
+      "wrong_answers": ["Canada", "New Zealand", "Switzerland"]
+    },
+    {
+      "question": "Which country is known for its pyramids?",
+      "correct_answer": "Egypt",
+      "wrong_answers": ["Mexico", "Greece", "India"]
+    },
+    {
+      "question": "Which country is home to the Eiffel Tower?",
+      "correct_answer": "France",
+      "wrong_answers": ["Italy", "Germany", "Spain"]
+    },
+    {
+      "question": "Which country is known for its kangaroos?",
+      "correct_answer": "Australia",
+      "wrong_answers": ["Brazil", "Kenya", "Canada"]
+    },
+    {
+      "question": "Which country is famous for its tulips?",
+      "correct_answer": "Netherlands",
+      "wrong_answers": ["Sweden", "Russia", "South Africa"]
+    },
+    {
+      "question": "Which country is located in both Asia and Europe?",
+      "correct_answer": "Turkey",
+      "wrong_answers": ["United States", "Australia", "Brazil"]
+    },
+    {
+      "question": "Which country is known for its maple syrup?",
+      "correct_answer": "Canada",
+      "wrong_answers": ["Mexico", "Japan", "India"]
+    },
+    {
+      "question": "Which country is home to the Great Wall?",
+      "correct_answer": "China",
+      "wrong_answers": ["Egypt", "Greece", "Italy"]
+    },
+    {
+      "question": "Which country is famous for its samba and carnival?",
+      "correct_answer": "Brazil",
+      "wrong_answers": ["Argentina", "Colombia", "Chile"]
+    },
+    {
+      "question": "Which country is known for its high-quality chocolate?",
+      "correct_answer": "Belgium",
+      "wrong_answers": ["Switzerland", "France", "Netherlands"]
+    },
+    {
+      "question": "Which country is home to Mount Everest?",
+      "correct_answer": "Nepal",
+      "wrong_answers": ["India", "China", "Japan"]
+    },
+    {
+      "question": "Which country is famous for its ancient ruins of Machu Picchu?",
+      "correct_answer": "Peru",
+      "wrong_answers": ["Mexico", "Brazil", "Argentina"]
+    },
+    {
+      "question": "Which country is known for its beautiful beaches and tango dance?",
+      "correct_answer": "Argentina",
+      "wrong_answers": ["Spain", "Italy", "Greece"]
+    },
+    {
+      "question": "Which country is home to the Acropolis?",
+      "correct_answer": "Greece",
+      "wrong_answers": ["Egypt", "Italy", "Turkey"]
+    },
+    {
+      "question": "Which country is famous for its Oktoberfest celebration?",
+      "correct_answer": "Germany",
+      "wrong_answers": ["Switzerland", "Austria", "Netherlands"]
+    },
+    {
+      "question": "Which country is known for its cherry blossoms?",
+      "correct_answer": "Japan",
+      "wrong_answers": ["China", "Korea", "Thailand"]
+    },
+    {
+      "question": "Which country is home to the Colosseum?",
+      "correct_answer": "Italy",
+      "wrong_answers": ["Greece", "Spain", "France"]
+    },
+    {
+      "question": "Which country is famous for its fjords?",
+      "correct_answer": "Norway",
+      "wrong_answers": ["Canada", "New Zealand", "Switzerland"]
+    },
+    {
+      "question": "Which country is known for its pyramids?",
+      "correct_answer": "Egypt",
+      "wrong_answers": ["Mexico", "Greece", "India"]
+    },
+    {
+      "question": "Which country is home to the Eiffel Tower?",
+      "correct_answer": "France",
+      "wrong_answers": ["Italy", "Germany", "Spain"]
+    },
+    {
+      "question": "Which country is known for its kangaroos?",
+      "correct_answer": "Australia",
+      "wrong_answers": ["Brazil", "Kenya", "Canada"]
+    }
+  ]
+}
