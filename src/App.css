@@ -68,6 +68,18 @@
   border: none;
 }
 
+.correctAnsware {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+}
+
+.wrongAnsware {
+  background: #f44336;
+  color: #fff;
+  border: none;
+}
+
 .Action-Container {
   position: relative;
   bottom: 0;
