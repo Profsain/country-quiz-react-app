@@ -9,12 +9,16 @@ import data from '../quizdata.json';
 
 const Quiz = () => {
   const quizData = data.questions;
-  let [quizIndex, setQuizIndex] = useState(0);
+  const [quizIndex, setQuizIndex] = useState(0);
+  const [score, setSecore] = useState(0);
   const quizQuestion = quizData[quizIndex].question;
   const quizOptions = quizData[quizIndex].wrong_answers;
   const quizAnsware = quizData[quizIndex].correct_answer;
   const allOptions = [...quizOptions, quizAnsware];
 
+  // shuffle array
+  allOptions.sort(() => Math.random() - 0.5);
+  
   // disable all button after click
   const disableBtn = () => {
     const allButtons = document.querySelectorAll('.Answare-btn');
@@ -39,6 +43,7 @@ const Quiz = () => {
     const correctAnsware = quizData[quizIndex].correct_answer;
     if (selectedAnsware === correctAnsware) {
       e.target.classList.add('correctAnsware');
+      setSecore(score + 10);
     } else {
       e.target.classList.add('wrongAnsware');
     }
@@ -51,7 +56,7 @@ const Quiz = () => {
     if (quizIndex === quizData.length - 1) {
       setQuizIndex(0);
     } else {
-      setQuizIndex(quizIndex += 1);
+      setQuizIndex(quizIndex + 1);
     }
     clearStyle();
   }
@@ -61,7 +66,7 @@ const Quiz = () => {
         <div  className="Logo">
             <Logo />
         </div>
-        <QuizQuestion question={quizQuestion}/>
+        <QuizQuestion question={quizQuestion} score={score}/>
         {allOptions.map((option, index) => (
             <QuizAnsware 
               key={index} 
@@ -83,4 +88,4 @@ const Quiz = () => {
   )
 }
 
-export default Quiz
+export default Quiz;
