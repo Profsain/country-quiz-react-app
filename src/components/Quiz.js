@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { QuizContext } from '../App';
 import Logo from './Logo';
 import '../App.css';
 import QuizQuestion from './QuizQuestion';
@@ -10,14 +11,16 @@ import data from '../quizdata.json';
 const Quiz = () => {
   const quizData = data.questions;
   const [quizIndex, setQuizIndex] = useState(0);
-  const [score, setSecore] = useState(0);
+  // const [score, setScore] = useState(0);
+  const contextValue = useContext(QuizContext);
+  const { score, setScore } = contextValue;
   const quizQuestion = quizData[quizIndex].question;
   const quizOptions = quizData[quizIndex].wrong_answers;
   const quizAnsware = quizData[quizIndex].correct_answer;
   const allOptions = [...quizOptions, quizAnsware];
 
   // shuffle array
-  allOptions.sort(() => Math.random() - 0.5);
+  // allOptions.sort(() => Math.random() - 0.5);
   
   // disable all button after click
   const disableBtn = () => {
@@ -42,8 +45,8 @@ const Quiz = () => {
     const selectedAnsware = e.target.innerText;
     const correctAnsware = quizData[quizIndex].correct_answer;
     if (selectedAnsware === correctAnsware) {
+      setScore(() => score + 10);
       e.target.classList.add('correctAnsware');
-      setSecore(score + 10);
     } else {
       e.target.classList.add('wrongAnsware');
     }
@@ -56,7 +59,7 @@ const Quiz = () => {
     if (quizIndex === quizData.length - 1) {
       setQuizIndex(0);
     } else {
-      setQuizIndex(quizIndex + 1);
+      setQuizIndex(() => quizIndex + 1);
     }
     clearStyle();
   }
@@ -66,7 +69,7 @@ const Quiz = () => {
         <div  className="Logo">
             <Logo />
         </div>
-        <QuizQuestion question={quizQuestion} score={score}/>
+        <QuizQuestion question={quizQuestion} score={score} />
         {allOptions.map((option, index) => (
             <QuizAnsware 
               key={index} 

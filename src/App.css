@@ -1,9 +1,12 @@
+.App {
+  padding: 48px;
+}
 .Headings {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: 600;
   letter-spacing: 9px;
-  line-height: 1.5em;
+  /* line-height: 1.5em; */
   text-align: left;
   text-transform: uppercase;
   color: #fff;
